@@ -7,6 +7,51 @@
     <link rel="stylesheet" href="../style.css">
     <style>
       /* Doe hier jouw ding! */
+      body {
+        column-count: 4;
+        column-width: auto;
+        column-gap: 2em;
+        height: 100vh;
+      }
+
+      header {
+        column-span: all;
+        margin: 1em 0em;
+      }
+
+      nav {
+        column-span: all; 
+        margin: 1em 0em;
+      }
+
+      footer {
+        column-span: all; 
+        margin: 1em 0em;        
+      }
+
+      .yellow {
+        height: 5em;
+        break-inside: avoid;
+        margin: 1em 0em;
+      }
+
+      .black {
+        height: 10em;
+        break-inside: avoid;
+        margin: 1em 0em;
+      }
+
+      .cyan {
+        height: 8em;
+        break-inside: avoid;
+        margin: 1em 0em;
+      }
+
+      .magenta {
+        min-height: 6em;
+        break-inside: avoid;
+        margin: 1em 0em;
+      }
     </style>
   </head>
   <body id="advanced-layout-1">
@@ -16,17 +61,28 @@
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
 
     <!-- Kopieer en mix zoveel als je nodig hebt -->
-    <section class="yellow"></section>
-    <section class="black"></section>
     <section class="cyan"></section>
-    <section class="magenta"></section>
-    <section class="yellow"></section>
-    <section class="black"></section>
     <section class="cyan"></section>
+    <section class="cyan"></section>
+    
+    
     <section class="magenta"></section>
+    <section class="magenta"></section>
+    <section class="magenta"></section>
+    <section class="magenta"></section>
+    
+    
+    <section class="yellow"></section>
+    <section class="yellow"></section>
+    <section class="yellow"></section>
+    <section class="yellow"></section>
     <section class="yellow"></section>
 
-    <footer></footer>
+    <section class="black"></section>
+    <section class="black"></section>
+    <section class="black"></section>
+
+    <!-- <footer></footer> -->
 
   </body>
 </html>
