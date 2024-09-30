@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="../style.css">
     <style>
       /* Doe hier jouw ding! */
+      body {
+        display: grid; 
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr); 
+        gap: 20px;
+        justify-items: center;
+        margin-top: 15em;
+      }
+
+      nav {
+        transform-origin: center;
+        rotate: 40deg;
+        translate: 0% -110%;
+        width: 40em;
+      }
+
+      header {
+        transform-origin: center;
+        rotate: -40deg;
+        translate: 0% 0%;
+        width: 40em;
+
+      }
+
+      main {
+        width: 40em;
+      }
+
+      footer {
+        width: 40em;
+      }
     </style>
   </head>
   <body id="advanced-layout-2">
