@@ -7,6 +7,36 @@
     <link rel="stylesheet" href="../style.css">
     <style>
       /* Doe hier jouw ding! */
+      body {
+        display: grid; 
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 50px;
+      }
+
+      main {
+        grid-row: 1/2;
+      }
+
+      footer {
+        grid-row: 2/3;
+      }
+
+      header {
+        position: absolute; 
+        width: 15em;
+        height: 25em; 
+        top: 10em;
+        left: 50em;
+      }
+
+      nav {
+        position: absolute; 
+        width: 15em;
+        height: 25em; 
+        top: 15em;
+        left: 30em;        
+      }
     </style>
   </head>
   <body id="advanced-layout-6">
