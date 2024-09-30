@@ -7,6 +7,39 @@
     <link rel="stylesheet" href="../style.css">
     <style>
       /* Doe hier jouw ding! */
+      body {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+      }
+
+      header {
+        grid-column: 1/2; 
+        grid-row: 1/2; 
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+      }
+
+      nav {
+        grid-column: 2/3; 
+        grid-row: 1/2; 
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0 80%);
+
+      }
+
+      main {
+        grid-column: 1/2; 
+        grid-row: 2/3; 
+        clip-path: polygon(0 60%, 100% 40%, 100% 100%, 0 100%);
+      }
+
+      footer {
+        grid-column: 2/3; 
+        grid-row: 2/3; 
+        clip-path: polygon(0 40%, 100% 20%, 100% 100%, 0 100%);
+        
+      }
+
     </style>
   </head>
   <body id="advanced-layout-4">
